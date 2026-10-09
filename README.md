@@ -1,31 +1,31 @@
 # AdminLTE Django Project
 
-Initial setup for AdminLTE using Python 2.7 and Django 1.9.
+A Django starter project using the AdminLTE dashboard template.
 
-This repository contains a Django project that integrates the AdminLTE dashboard template with a simple blog-style application. It is intended as a starter project for building admin dashboards and web apps with Django.
+This repository includes a Django application scaffold with the AdminLTE frontend assets integrated into a simple blog-style project. It is intended as a quick starting point for building admin dashboards and web apps with Django.
 
 ## Project structure
 
 - `manage.py` — Django project management script
-- `myblog/` — project settings and application configuration
-- `blog/` — blog app code
-- `templates/` — HTML templates used by the project
-- `static/` — static assets for the AdminLTE theme
+- `myblog/` — Django project settings and configuration
+- `blog/` — application logic for the blog module
+- `templates/` — project templates
+- `static/` — AdminLTE static assets
 - `staticfiles/` — collected static files
-- `requirements.txt` — Python dependency list
-- `db.sqlite3` — SQLite database file
+- `requirements.txt` — Python package requirements
+- `db.sqlite3` — SQLite development database
 
-## Prerequisites
+## Requirements
 
-- Python 2.7
-- Django 1.9
+- Python 3.10 or newer
+- Django 5.0.x to 5.1.x
 - pip
 
 ## Setup
 
-1. Create a Django project named `myblog` if you are starting from scratch.
-2. Clone or download this repository into your project directory.
-3. Install dependencies:
+1. Clone or download this repository.
+2. Create and activate a virtual environment if needed.
+3. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
@@ -51,10 +51,10 @@ This repository contains a Django project that integrates the AdminLTE dashboard
 
 ## Notes
 
-- This project is configured for Python 2.7 and Django 1.9.
-- AdminLTE assets are included under the `static` and `staticfiles` directories.
-- The repository is meant as a basic starter layout for integrating a dashboard UI into a Django application.
+- The project is configured for modern Django versions and Python 3.10+.
+- The AdminLTE assets are stored in the `static` and `staticfiles` directories.
+- This repository is meant as a basic starter project for integrating a dashboard UI into a Django application.
 
 ## License
 
-This project is distributed as-is for educational and development purposes.
+This project is provided as-is for educational and development purposes.
