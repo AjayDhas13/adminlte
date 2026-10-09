@@ -1,8 +1,9 @@
-from django.conf.urls import url
-from blog import views, login
+from django.urls import path
+
+from . import views
 
 urlpatterns = [
-	url(r'^$', views.login, name='login'),
-	url(r'^register/$', views.register, name='register'),
-	url(r'^home/$', views.home, name='home'),
+    path("", views.login_view, name="login"),
+    path("register/", views.register, name="register"),
+    path("home/", views.home, name="home"),
 ]
